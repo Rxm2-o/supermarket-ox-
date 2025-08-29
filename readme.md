@@ -1,26 +1,33 @@
-# LMarket 🛒
+Supérette
 
-Ce script de superette qui a été réalisé en OX.
+Un script de supérette développé en OX.
 
-## Fonctionnalités
+Fonctionnalités
 
-- **Achat d'item**: Achetez des articles dans les supérettes.
-- **Optimisation**: Le script est optimisé pour éviter les bugs.
-- **Full configurable**: Vous pouvez configurer le script comme vous le souhaitez grâce aux catégories.
+Achat d’articles : possibilité d’acheter divers items dans les supérettes.
 
-## Installation
+Optimisation : script allégé et conçu pour limiter les bugs.
 
-1. Téléchargez les fichiers.
-2. Copiez le dossier du script dans votre répertoire `resources`.
-3. Ajoutez `ensure LMarket` à votre fichier `server.cfg`.
+Entièrement configurable : personnalisation complète grâce aux différentes catégories.
 
-## Configuration
+Installation
 
-Vous pouvez configurer les différents aspects du script en modifiant le fichier `config.lua` :
-- **Blips**: Ajustez le nom, la taille, le blips.
-- **Marker**: Changer le type, la couleur et la taille du marker.
-- **Catégorie**: Ajoutez autant de catégories pour les supérettes. 
+Téléchargez les fichiers du script.
 
-## Utilisation
+Copiez le dossier dans le répertoire resources.
 
-Il vous suiffit de vous rendre à une des supérettes pour commencer à acheter des articles.
+Ajoutez la ligne ensure LMarket dans votre fichier server.cfg.
+
+Configuration
+
+Toutes les options sont disponibles dans le fichier config.lua :
+
+Blips : personnalisez le nom, la taille et l’icône.
+
+Marker : modifiez le type, la couleur et les dimensions.
+
+Catégories : ajoutez librement des catégories pour vos supérettes.
+
+Utilisation
+
+Rendez-vous simplement dans l’une des supérettes pour commencer vos achats.
