@@ -11,11 +11,11 @@ Config = {
     BlipColour = 25,
     BlipName = 'Superette',
 
-    InteractionType = "marker", -- marker or target
+    InteractionType = "marker", 
 
     PedModel = "a_m_m_farmer_01", -- https://docs.fivem.net/docs/game-references/ped-models/
 
-    Location = { -- a script for get the position : https://www.youtube.com/watch?v=Q-VBAaz6hhA
+    Location = { -- position des supérette
         {global_position = vector3(25.6, -1346.82, 28.49), marker_position = vector3(25.6, -1346.82, 28.49), ped_position = vec4(24.504482269287, -1346.7625732422, 28.497049331665, 268.35229492188)},
         {global_position = vector3(2678.0, 3280.8, 54.24), marker_position = vector3(2678.0, 3280.8, 54.24), ped_position = vec4(2677.4482421875, 3279.78125, 54.241111755371, 334.49304199219)},
         {global_position = vector3(-1222.9, -907.3, 11.3), marker_position = vector3(-1222.9, -907.3, 11.3), ped_position = vec4(-1222.1513671875, -908.39251708984, 11.32635974884, 33.289657592773)},
@@ -37,7 +37,7 @@ Config = {
         {global_position = vector3(-1487.75, -378.51, 39.163368225098), marker_position = vector3(-1487.75, -378.51, 39.163368225098), ped_position = vec4(-1486.7299804688, -377.48748779297, 39.163368225098, 133.89526367188)},
     },
     
-    -- For the name of eatch category is was as the same name
+    -- Nom des catégories de nourriture 
     Category = {
         ["foods"] = {
             {itemName = "fish", label = "Poisson", price = 20, icon = "bowl-food"},
@@ -47,7 +47,7 @@ Config = {
             {itemName = "water", label = "Eau", price = 10, icon = "whiskey-glass"},            
         },
     },
-    -- ⚠️ Please note that the name of each category must be the same as the name above
+   -- Si vous modifiez au dessus merci de modifier en dessous sinon le script ne pourra fonctionner
     CategoryInfo = {
         ["foods"] = {name = "Nourritures", icon = "bowl-food"},
         ["drinks"] = {name = "Boissons", icon = "whiskey-glass"},
