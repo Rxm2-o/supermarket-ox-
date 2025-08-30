@@ -16,7 +16,7 @@ Téléchargez les fichiers du script.
 
 Copiez le dossier dans le répertoire resources.
 
-Ajoutez la ligne ensure LMarket dans votre fichier server.cfg.
+Et puis redémarrer votre serveur fivem 
 
 Configuration
 
